@@ -1,0 +1,7 @@
+*.py[co]
+.pyc
+reports
+*.log
+.vs
+.csv
+.vscode
