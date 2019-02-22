@@ -9,6 +9,7 @@ pipeline {
     stage('Test') {
       steps {
         sh 'pip install robotframework robotframework-seleniumlibrary'
+        echo 'Installing Robot stuff'
       }
     }
   }
